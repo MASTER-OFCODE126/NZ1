@@ -9,29 +9,39 @@ const Agence = () => {
 
   const imageDivRef = useRef(null)
   const imageRef = useRef(null)
-  // const imageArray = ["https://k72.ca/uploads/teamMembers/Carl_480x640-480x640.jpg","https://k72.ca/uploads/teamMembers/Olivier_480x640-480x640.jpg", "https://k72.ca/uploads/teamMembers/Lawrence_480x640-480x640.jpg",
-  //   "https://k72.ca/uploads/teamMembers/Lawrence_480x640-480x640.jpg", "https://k72.ca/uploads/teamMembers/HugoJoseph_480x640-480x640.jpg",
-  //   "https://k72.ca/uploads/teamMembers/ChantalG_480x640-480x640.jpg", "https://k72.ca/uploads/teamMembers/MyleneS_480x640-480x640.jpg",
-  //   "https://k72.ca/uploads/teamMembers/SophieA_480x640-480x640.jpg", "https://k72.ca/uploads/teamMembers/Claire_480x640-480x640.jpg",
-  //   "https://k72.ca/uploads/teamMembers/Michele_480X640-480x640.jpg", "https://k72.ca/uploads/teamMembers/MEL_480X640-480x640.jpg",
-  //   "https://k72.ca/uploads/teamMembers/CAMILLE_480X640_2-480x640.jpg", "https://k72.ca/uploads/teamMembers/MAXIME_480X640_2-480x640.jpg",
-  //    "https://k72.ca/uploads/teamMembers/joel_480X640_3-480x640.jpg-"
+
+  // const imageArray = [
+  //   "/IMAGES/V1.jpg",
+  //   "/IMAGES/V2.jpg",
+  //   "/IMAGES/V3.jpg",
+  //   "/IMAGES/V4.jpg",
+  //   "/IMAGES/V5.jpg",
+  //   "/IMAGES/V6.jpg",
+  //   "/IMAGES/V7.jpg",
+  //   "/IMAGES/V8.jpg",
+  //   "/IMAGES/V9.jpg",
+  //   "/IMAGES/V10.jpg",
+  //   "/IMAGES/V11.jpg",
+  //   "/IMAGES/V12.jpg",
+  //   "/IMAGES/V13.jpg",
+  //   "/IMAGES/V14.jpg"
   // ]
+  
   const imageArray = [
-    "/IMAGES/V1.jpg",
-    "/IMAGES/V2.jpg",
-    "/IMAGES/V3.jpg",
-    "/IMAGES/V4.jpg",
-    "/IMAGES/V5.jpg",
-    "/IMAGES/V6.jpg",
-    "/IMAGES/V7.jpg",
-    "/IMAGES/V8.jpg",
-    "/IMAGES/V9.jpg",
-    "/IMAGES/V10.jpg",
-    "/IMAGES/V11.jpg",
-    "/IMAGES/V12.jpg",
-    "/IMAGES/V13.jpg",
-    "/IMAGES/V14.jpg"
+    `${import.meta.env.BASE_URL}IMAGES/V1.jpg`,
+    `${import.meta.env.BASE_URL}IMAGES/V2.jpg`,
+    `${import.meta.env.BASE_URL}IMAGES/V3.jpg`,
+    `${import.meta.env.BASE_URL}IMAGES/V4.jpg`,
+    `${import.meta.env.BASE_URL}IMAGES/V5.jpg`,
+    `${import.meta.env.BASE_URL}IMAGES/V6.jpg`,
+    `${import.meta.env.BASE_URL}IMAGES/V7.jpg`,
+    `${import.meta.env.BASE_URL}IMAGES/V8.jpg`,
+    `${import.meta.env.BASE_URL}IMAGES/V9.jpg`,
+    `${import.meta.env.BASE_URL}IMAGES/V10.jpg`,
+    `${import.meta.env.BASE_URL}IMAGES/V11.jpg`,
+    `${import.meta.env.BASE_URL}IMAGES/V12.jpg`,
+    `${import.meta.env.BASE_URL}IMAGES/V13.jpg`,
+    `${import.meta.env.BASE_URL}IMAGES/V14.jpg`
   ]
   useGSAP(function () {
 
